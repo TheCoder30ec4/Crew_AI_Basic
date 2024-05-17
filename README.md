@@ -41,36 +41,12 @@ Ensure you have the following installed:
 ### Usage
 
 1. **Configure Your Project**:
-   - Modify the `config.py` file to set up your project parameters, including data paths, model parameters, and training options.
+2. **Run Main.py**:
 
-2. **Prepare Your Data**:
-   - Place your dataset in the appropriate directory specified in `config.py`.
-   - Ensure your data is formatted correctly for the model you intend to use.
-
-3. **Train Your Model**:
-   - Run the training script to start training your AI model.
-   ```bash
-   python train.py
-   ```
-
-4. **Evaluate Your Model**:
-   - After training, evaluate your model using the evaluation script.
-   ```bash
-   python evaluate.py
-   ```
-
-5. **Deploy Your Model**:
-   - Use the deployment script to deploy your trained model.
-   ```bash
-   python deploy.py
-   ```
 
 ## Project Structure
 
-- `config.py`: Configuration file for setting parameters and paths.
-- `data/`: Directory to store your dataset.
-- `models/`: Directory to store trained models.
-- `scripts/`: Contains various scripts for data processing, training, evaluation, and deployment.
+- `main.py`: Main file
 - `requirements.txt`: List of Python dependencies.
 - `README.md`: Project documentation.
 
@@ -99,8 +75,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or suggestions, please open an issue on GitHub or contact the repository owner at [email@example.com](mailto:email@example.com).
+For any questions or suggestions, please open an issue on GitHub or contact the repository owner at [varun30ec4@gmail.com](mailto:varun30ec4@gmail.com).
 
 ---
-
-Thank you for using Crew AI Basic! We hope it helps you build amazing AI models with ease.
